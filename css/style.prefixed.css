@@ -16,7 +16,8 @@ main header {
   padding-bottom: 30px;
 }
 
-main .box h2, main .box h3 {
+main .box h2,
+main .box h3 {
   padding-bottom: 30px;
 }
 
@@ -50,9 +51,17 @@ main .tweet {
   color: #2e86de;
 }
 
+main .tweet:hover {
+  color: #c8d6e5;
+}
+
 main .tweet i {
   color: #2e86de;
   font-size: 30px;
   padding: 0 10px;
+}
+
+main .tweet i:hover {
+  color: #c8d6e5;
 }
 /*# sourceMappingURL=style.prefixed.css.map */

@@ -2,11 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 $main-font: 'Roboto';
-
 body {
 	margin: auto;
 	box-sizing: border-box;
 }
+
 main {
 	font-family: $main-font;
 	background-color: #81ecec;
@@ -17,7 +17,8 @@ main {
 		padding-bottom: 30px;
 	}
 	.box {
-		h2, h3 {
+		h2,
+		h3 {
 			padding-bottom: 30px;
 		}
 	}
@@ -41,10 +42,16 @@ main {
 		align-items: center;
 		text-decoration: none;
 		color: #2e86de;
+		&:hover {
+			color: #c8d6e5;
+		}
 		i {
 			color: #2e86de;
 			font-size: 30px;
 			padding: 0 10px;
+			&:hover {
+				color: #c8d6e5;
+			}
 		}
 	}
 }
