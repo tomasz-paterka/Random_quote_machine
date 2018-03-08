@@ -1,0 +1,50 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+$main-font: 'Roboto';
+
+body {
+	margin: auto;
+	box-sizing: border-box;
+}
+main {
+	font-family: $main-font;
+	background-color: #81ecec;
+	padding: 150px;
+	text-align: center;
+	color: #2e86de;
+	header {
+		padding-bottom: 30px;
+	}
+	.box {
+		h2, h3 {
+			padding-bottom: 30px;
+		}
+	}
+	.trigger {
+		text-align: center;
+		background: transparent;
+		color: #2e86de;
+		font-family: $main-font;
+		font-size: 20px;
+		padding: 10px 150px;
+		border: 2px solid #2e86de;
+		cursor: pointer;
+		margin-bottom: 40px;
+		&:hover {
+			background-color: #c8d6e5;
+		}
+	}
+	.tweet {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-decoration: none;
+		color: #2e86de;
+		i {
+			color: #2e86de;
+			font-size: 30px;
+			padding: 0 10px;
+		}
+	}
+}
